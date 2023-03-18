@@ -9,3 +9,6 @@ Files in this folder:
 - logstash.conf (Logstash configuration file)
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmikoiv%2FMicrosoftSentinel-Logstash-DCR%2Fmain%2FFortigate%2F/Fortigate_DCR_Template_ARM.json)
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)]
+(https://raw.githubusercontent.com/mikoiv/MicrosoftSentinel-Logstash-DCRs/main/Fortigate/Fortigate_DCR_Template_ARM.json)
