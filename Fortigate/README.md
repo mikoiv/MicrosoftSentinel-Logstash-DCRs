@@ -10,5 +10,3 @@ Files in this folder:
 
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmikoiv%2FMicrosoftSentinel-Logstash-DCRs%2Fmain%2FFortigate%2FFortigate_DCR_Template_ARM.json)
-
-(https://raw.githubusercontent.com/mikoiv/MicrosoftSentinel-Logstash-DCRs/main/Fortigate/Fortigate_DCR_Template_ARM.json)
