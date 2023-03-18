@@ -1,4 +1,4 @@
-Fortinet Fortigate NGFW integration to Microsoft Sentinel with Logstash.
+## Fortinet Fortigate integration to Microsoft Sentinel with Logstash ##
 
 Tested on FortiOS v7.0.x and v7.2.x devices.
 
