@@ -2,7 +2,7 @@ Fortinet Fortigate NGFW integration to Microsoft Sentinel with Logstash.
 
 Tested on FortiOS v7.0.x and v7.2.x devices.
 
-Be sure to check both the Logstash filter configuration and the DCR TransformKQL to suit the data you want to seee in Sentinel.
+Be sure to check both the Logstash filter configuration and the DCR TransformKQL to suit the data you want to collect in Sentinel.
 
 Files in this folder:
 - Fortigate_DCR_Template_ARM.json (ARM template for DCR) 
