@@ -183,12 +183,12 @@
                       "type": "string"
                     },
                     {
-                        "name": "bytesOut",
-                        "type": "string"
+                      "name": "bytesOut",
+                      "type": "string"
                     },
                     {
-                        "name": "FTNTFGTsrcintfrole",
-                        "type": "string"
+                      "name": "FTNTFGTsrcintfrole",
+                      "type": "string"
                     },
                     {
                       "name": "destinationPort",
