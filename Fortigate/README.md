@@ -1,4 +1,4 @@
-## Fortigate CEF integration to Microsoft Sentinel with Logstash##
+## Fortigate CEF integration to Microsoft Sentinel with Logstash
 
 Tested on FortiOS v7.0.x and v7.2.x devices.
 
