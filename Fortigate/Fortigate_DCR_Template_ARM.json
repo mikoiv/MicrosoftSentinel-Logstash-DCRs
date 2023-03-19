@@ -39,99 +39,32 @@
             "Custom-CommonSecurityLogStream": {
                 "columns": [
                     {
-                      "name": "ls_timestamp",
+                      "name": "FTNTFGTpolicyid",
                       "type": "datetime"
                     },
                     {
-                      "name": "ingress",
-                      "type": "dynamic"
-                    },
-                    {
-                      "name": "egress",
-                      "type": "dynamic"
-                    },
-                    {
-                      "name": "cef",
-                      "type": "dynamic"
-                    },
-                    {
-                      "name": "destination",
-                      "type": "dynamic"
-                    },
-                    {
-                      "name": "event",
-                      "type": "dynamic"
-                    },
-                    {
-                      "name": "FTNTFGTaction",
+                      "name": "name",
                       "type": "string"
                     },
                     {
-                      "name": "FTNTFGTapp",
+                      "name": "host",
                       "type": "string"
                     },
                     {
-                      "name": "FTNTFGTappcat",
+                        "name": "syslog",
+                        "type": "string"
+                    },
+                    {
+                        "name": "FTNTFGTlogid",
+                        "type": "string"
+                    },
+
+                    {
+                      "name": "deviceEventCategory",
                       "type": "string"
                     },
                     {
-                      "name": "FTNTFGTdstcountry",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTdstintfrole",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTduration",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTeventtime",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTidentifier",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTlevel",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTlogid",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTpolicyid",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTtype",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTrcvdpkt",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTsentpkt",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTsrccountry",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTsrcintfrole",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTsubtype",
-                      "type": "string"
-                    },
-                    {
-                      "name": "FTNTFGTtrandisp",
+                      "name": "deviceProduct",
                       "type": "string"
                     },
                     {
@@ -139,35 +72,144 @@
                       "type": "string"
                     },
                     {
+                      "name": "FTNTFGTduration",
+                      "type": "string"
+                    },
+                    {
+                      "name": "FTNTFGTdstintfrole",
+                      "type": "string"
+                    },
+                    {
+                      "name": "transportProtocol",
+                      "type": "string"
+                    },
+                    {
+                      "name": "FTNTFGTapp",
+                      "type": "string"
+                    },
+                    {
+                      "name": "sourcePort",
+                      "type": "string"
+                    },
+                    {
                       "name": "FTNTFGTvd",
                       "type": "string"
                     },
                     {
-                      "name": "host",
-                      "type": "dynamic"
-                    },
-                    {
-                      "name": "log",
-                      "type": "dynamic"
-                    },
-                    {
-                      "name": "ls_version",
+                      "name": "deviceOutboundInterface",
                       "type": "string"
                     },
                     {
-                      "name": "network",
-                      "type": "dynamic"
+                      "name": "FTNTFGTaction",
+                      "type": "string"
                     },
                     {
-                      "name": "observer",
-                      "type": "dynamic"
+                      "name": "externalId",
+                      "type": "string"
                     },
                     {
-                      "name": "source",
-                      "type": "dynamic"
+                      "name": "bytesIn",
+                      "type": "string"
+                    },
+                    {
+                        "name": "FTNTFGTdstcountry",
+                        "type": "string"
+                      },
+                      {
+                        "name": "FTNTFGTsrccountry",
+                        "type": "string"
+                      },
+                      {
+                        "name": "severity",
+                        "type": "string"
+                      },
+
+                    {
+                      "name": "destinationAddress",
+                      "type": "string"
+                    },
+                    {
+                      "name": "FTNTFGTeventtime",
+                      "type": "string"
+                    },
+                    {
+                      "name": "applicationProtocol",
+                      "type": "string"
+                    },
+                    {
+                      "name": "FTNTFGTrcvdpkt",
+                      "type": "string"
+                    },
+                    {
+                      "name": "deviceVersion",
+                      "type": "string"
+                    },
+                    {
+                      "name": "FTNTFGTsentpkt",
+                      "type": "string"
+                    },
+                    {
+                      "name": "sourceAddress",
+                      "type": "string"
+                    },
+                    {
+                      "name": "FTNTFGTappcat",
+                      "type": "string"
+                    },
+                    {
+                      "name": "FTNTFGTsubtype",
+                      "type": "string"
+                    },
+                    {
+                      "name": "deviceEventClassId",
+                      "type": "string"
+                    },
+                    {
+                      "name": "deviceInboundInterface",
+                      "type": "string"
                     },
                     {
                       "name": "type",
+                      "type": "string"
+                    },
+                    {
+                      "name": "deviceVendor",
+                      "type": "string"
+                    },
+                    {
+                      "name": "FTNTFGTtrandisp",
+                      "type": "string"
+                    },
+                    {
+                      "name": "FTNTFGTlevel",
+                      "type": "string"
+                    },
+                    {
+                        "name": "bytesOut",
+                        "type": "string"
+                    },
+                    {
+                        "name": "FTNTFGTsrcintfrole",
+                        "type": "string"
+                    },
+                    {
+                        "name": "destinationPort",
+                        "type": "string"
+                      },
+                      {
+                        "name": "deviceExternalId",
+                        "type": "string"
+                      },
+                      {
+                        "name": "cefVersion",
+                        "type": "string"
+                      },
+                      {
+                        "name": "ls_timestamp",
+                        "type": "datetime"
+                      },                    
+                      {
+                      "name": "ls_version",
                       "type": "string"
                     }
             ]
@@ -189,7 +231,7 @@
               "destinations": [
                 "clv2ws1"
               ],
-              "transformKql": "source | extend TimeGenerated = ls_timestamp, DeviceInboundInterface = tostring(ingress.interface.name), DeviceOutboundInterface = tostring(egress.interface.name), DeviceProduct = tostring(observer.product), Activity = tostring(cef.name), ApplicationProtocol = tostring(network.protocol), DestinationCountry = tostring(FTNTFGTdstcountry), SourceCountry = tostring(FTNTFGTsrccountry), DestinationIP = tostring(destination.ip), SentBytes=tolong(destination.bytes), DestinationPort=toint(destination.port), SourceIP = tostring(source.ip), ReceivedBytes=tolong(source.bytes), SourcePort = toint(source.port)| project-away ingress,egress,event,cef,destination,host,observer,network,source,ls_version,ls_timestamp",
+              "transformKql": "source | extend TimeGenerated = ls_timestamp, DeviceAction = tostring(FTNTFGTaction), DeviceProduct = tostring(deviceProduct), ApplicationProtocol = tostring(FTNTFGTapp), SourceIP = tostring(sourceAddress), DestinationIP = tostring(destinationAddress), SentBytes = tolong(bytesOut), ReceivedBytes = tolong(bytesIn), SourcePort = toint(sourcePort), DestinationPort = toint(destinationPort)",
               "outputStream": "Microsoft-CommonSecurityLog"
             }
           ]
