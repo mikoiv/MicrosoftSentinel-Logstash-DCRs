@@ -1,10 +1,10 @@
 ## Fortigate CEF integration to Microsoft Sentinel with Logstash
 
-Tested on FortiOS v7.0.x and v7.2.x devices.
+Tested on FortiOS v7.2.x.
 
 Utilizes Logstash to forward CEF messages to Sentinel, via Data Collection Rule. 
 
-Remember to check both the Logstash filter and the DCR TransformKQL to understand how this filters and maps the logs. Make changes according to your own needs.
+Remember to review both the **Logstash filter** and the **DCR TransformKQL** to understand how this filters and maps the logs. Make changes according to your own needs.
 
 Files in this folder:
 - Fortigate_DCR_Template_ARM.json (ARM template for DCR) 
