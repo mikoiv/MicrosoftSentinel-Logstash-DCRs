@@ -40,7 +40,7 @@
             "columns": [
               {
                 "name": "FTNTFGTpolicyid",
-                "type": “string”
+                "type": "string"
               },
               {
                 "name": "deviceAction",
