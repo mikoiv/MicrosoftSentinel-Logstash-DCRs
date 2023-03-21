@@ -40,7 +40,7 @@
                 "columns": [
                     {
                       "name": "FTNTFGTpolicyid",
-                      "type": "datetime"
+                      "type": "string"
                     },
                     {
                       "name": "name",
