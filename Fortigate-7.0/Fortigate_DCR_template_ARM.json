@@ -40,7 +40,7 @@
             "columns": [
               {
                 "name": "FTNTFGTpolicyid",
-                "type": "string"
+                "type": "datetime"
               },
               {
                 "name": "deviceAction",
@@ -128,6 +128,10 @@
               },
               {
                 "name": "destinationAddress",
+                "type": "string"
+              },
+              {
+                "name": "destinationHostName",
                 "type": "string"
               },
               {
@@ -233,7 +237,7 @@
             "destinations": [
               "clv2ws1"
             ],
-            "transformKql": "source | extend TimeGenerated = ls_timestamp, DeviceAction = tostring(deviceAction), DeviceProduct = tostring(deviceProduct), ApplicationProtocol = tostring(FTNTFGTapp), SourceIP = tostring(sourceAddress), DestinationIP = tostring(destinationAddress), SentBytes = tolong(bytesOut), ReceivedBytes = tolong(bytesIn), SourcePort = toint(sourcePort), DestinationPort = toint(destinationPort)",
+            "transformKql": "source | extend TimeGenerated = ls_timestamp, Severity = toint(severity), DeviceEventCategory = tostring(deviceEventCategory), DestinationHostName = tostring(destinationHostName), DeviceAction = tostring(deviceAction), DeviceProduct = tostring(deviceProduct), ApplicationProtocol = tostring(FTNTFGTapp), SourceIP = tostring(sourceAddress), DestinationIP = tostring(destinationAddress), SentBytes = tolong(bytesOut), ReceivedBytes = tolong(bytesIn), SourcePort = toint(sourcePort), DestinationPort = toint(destinationPort)",
             "outputStream": "Microsoft-CommonSecurityLog"
           }
         ]
