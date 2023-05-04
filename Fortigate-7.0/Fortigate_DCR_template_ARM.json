@@ -127,6 +127,10 @@
                 "type": "string"
               },
               {
+                "name": "message",
+                "type": "string"
+              },
+              {
                 "name": "destinationAddress",
                 "type": "string"
               },
@@ -237,7 +241,7 @@
             "destinations": [
               "clv2ws1"
             ],
-            "transformKql": "source | extend TimeGenerated = ls_timestamp, Severity = toint(severity), DeviceEventCategory = tostring(deviceEventCategory), DestinationHostName = tostring(destinationHostName), DeviceAction = tostring(deviceAction), DeviceProduct = tostring(deviceProduct), ApplicationProtocol = tostring(FTNTFGTapp), SourceIP = tostring(sourceAddress), DestinationIP = tostring(destinationAddress), SentBytes = tolong(bytesOut), ReceivedBytes = tolong(bytesIn), SourcePort = toint(sourcePort), DestinationPort = toint(destinationPort)",
+            "transformKql": "source | extend TimeGenerated = ls_timestamp, Message = tostring(message), Severity = tostring(severity), DeviceEventCategory = tostring(deviceEventCategory), DestinationHostName = tostring(destinationHostName), DeviceAction = tostring(deviceAction), DeviceProduct = tostring(deviceProduct), ApplicationProtocol = tostring(FTNTFGTapp), SourceIP = tostring(sourceAddress), DestinationIP = tostring(destinationAddress), SentBytes = tolong(bytesOut), ReceivedBytes = tolong(bytesIn), SourcePort = toint(sourcePort), DestinationPort = toint(destinationPort)",
             "outputStream": "Microsoft-CommonSecurityLog"
           }
         ]
